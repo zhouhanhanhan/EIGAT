@@ -1,6 +1,6 @@
 # Incorporating Global Information in Local Attention for Knowledge Representation Learning
 
-Source code for our paper: Incorporating Global Information in Local Attention for Knowledge Representation Learning
+Source code for our paper: [Incorporating Global Information in Local Attention for Knowledge Representation Learning](https://aclanthology.org/2021.findings-acl.115.pdf)
 
 
 
