@@ -25,7 +25,7 @@ Then reproducing the results in the paper by:
 
 * **Nell**
 
-        $ python3 main.py --get_2hop True
+        $ python3 main.py --get_2hop True --use_2hop True
 
 * **Other datasets**
 
