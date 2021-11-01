@@ -26,7 +26,11 @@ Then reproducing the results in the paper by:
 * **Nell**
 
         $ python3 main.py --get_2hop True --use_2hop True
-
+        
+* **Kinship** 
+       
+        $ python3 main.py --data ./data/kinship/ --output_folder ./checkpoints/kinship/out/ --lr 1e-2 --epochs_gat 4000 --epochs_conv 400 --batch_size_gat 8544 --drop_GAT 0.3 --weight_decay_conv 1e-5 --valid_invalid_ratio_conv 10 --out_channels 50 --drop_conv 0.0 --get_2hop True --use_2hop True
+        
 * **Other datasets**
 
  Parameters of other datasets are given in appendix of the paper. 
