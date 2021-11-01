@@ -64,7 +64,7 @@ def parse_args():
     args.add_argument("-w_gat", "--weight_decay_gat", type=float,
                       default=1e-6, help="L2 reglarization for gat")    
     args.add_argument("-drop_GAT", "--drop_GAT", type=float, 
-                      default=0.4, help="Dropout probability for SpGAT layer")
+                      default=0.5, help="Dropout probability for SpGAT layer")
     args.add_argument("-alpha", "--alpha", type=float,
                       default=0.2, help="LeakyRelu alphs for SpGAT layer")
     args.add_argument("-out_dim", "--entity_out_dim", type=int, nargs='+',
@@ -83,7 +83,7 @@ def parse_args():
                       default=0.2, help="LeakyRelu alphas for conv layer")
     args.add_argument("-neg_s_conv", "--valid_invalid_ratio_conv", type=int, default=40,
                       help="Ratio of valid to invalid triples for convolution training")
-    args.add_argument("-o", "--out_channels", type=int, default=300,
+    args.add_argument("-o", "--out_channels", type=int, default=400,
                       help="Number of output channels in conv layer")
     args.add_argument("-drop_conv", "--drop_conv", type=float,
                       default=0.3, help="Dropout probability for convolution layer")
